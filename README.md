@@ -51,7 +51,7 @@ Official thread about this on [obsrv.org forum](http://www.obsrv.org/viewtopic.p
 - Make symlink of extracted Apr with `ln -s apr-1.7.0 apr`
 - Make symlink of extracted Apr-util with `ln -s apr-util-1.6.1 apr-util`
 - Go back one folder with `cd ..`
-- Execute make configure script with `./configure --prefix=/opt/apache --with-included-apr --with-ssl=/opt/openssl-1.0.2 --enable-ssl`
+- Execute make configure script with `./configure --prefix=/opt/apache --with-included-apr --with-ssl=/opt/openssl-1.0.2 --enable-ssl` (download and uppack apr-util in \srclib\ error)
 - Build with `make` and after just install with `make install`
 - Execute `vi /opt/apache/bin/envvars` and add the line with OpenSSL lib line with the following:
 
